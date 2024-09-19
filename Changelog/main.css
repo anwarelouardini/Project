@@ -1,0 +1,51 @@
+main{
+    margin-top: 50px;
+}
+.data-container,
+.Button-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.dates{
+    color: rgb(196, 196, 196);
+    font-size: 14px;
+    position: relative;
+    width: 150px;
+}
+.cercle{
+    position: absolute;
+    height: 12px;
+    width: 12px;
+    border-radius: 6px;
+    top: 2px;
+    right: -8px;
+    background-color: black;
+
+}
+.date-references{
+    margin-left: 20px;
+    font-size: 15px;
+    width: 350px;
+}
+.vertical-line{
+    text-align: center;
+    width: 2px;
+    height: 80px;
+    background-color: black;
+    border-radius: 1px 1px;
+}
+button{
+    border: none;
+    padding: 12px 25px 12px 25px;
+    background-color: black;
+    color: rgb(241, 241, 241);
+    border-radius: 10px;
+    font-size: 12px;
+    cursor: pointer;
+    margin-top: 25px;
+}
+button:hover{
+    opacity: 0.8;
+}
+

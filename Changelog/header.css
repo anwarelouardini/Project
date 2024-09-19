@@ -1,0 +1,19 @@
+    body{
+        font-family: Roboto, Arial;
+        border: 1px solid black;
+        width: 800px;
+        padding-bottom: 25px;
+        border-radius: 20px;
+    }
+    header{
+        text-align: center;
+    }
+    .title{
+        margin-top: 40px;
+        font-size: 30px;
+    }
+    .description{
+        margin-top: 15px;
+        font-size: 15px;
+        color: rgb(196, 196, 196);
+    }
